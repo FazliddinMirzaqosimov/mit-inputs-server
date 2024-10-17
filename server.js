@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Replace with your Telegram bot token and chat ID
 const telegramToken = "7815914215:AAFpLKyx0aKs4fB2lGsShzHVVg2-TrN1dv0";
-const chatId = "-4506641503";
+const chatId = "-4510993729";
 
 // API endpoint to receive form data
 app.post("/send", async (req, res) => {
